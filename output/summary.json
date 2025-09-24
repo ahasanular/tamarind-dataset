@@ -1,0 +1,14 @@
+{
+  "total_images": 8432,
+  "invalid_images": 0,
+  "class_counts": {
+    "healthy": 6408,
+    "unhealthy": 2024
+  },
+  "domain_counts": {
+    "shelled": 4208,
+    "mixed": 2024,
+    "unshelled": 2200
+  },
+  "duplicate_groups_count": 42
+}

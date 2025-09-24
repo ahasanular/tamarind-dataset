@@ -1,0 +1,4 @@
+class,domain,count,sample_image
+healthy,shelled,4208,output/samples/sample_healthy_shelled.png
+healthy,unshelled,2200,output/samples/sample_healthy_unshelled.png
+unhealthy,mixed,2024,output/samples/sample_unhealthy_mixed.png
