@@ -246,7 +246,8 @@ def supervised_contrastive_loss(bag_feats, domain_ids, temp=TEMPERATURE_CL):
 def run_train(train_csv, val_csv, save_path=f"./saved-models"):
     model_save_path = Path(save_path)
     model_save_path.mkdir(exist_ok=True)
-    model_file_path = model_save_path / f"{os.path.basename(__file__).split(".")[0]}_teacher_swin_film_mil.pt"
+    base_name = os.path.basename(__file__).split(".")[0]
+    model_file_path = model_save_path / f"{base_name}_teacher_swin_film_mil.pt"
 
     train_ds = TamarindPatches(train_csv, augment=True)
     val_ds = TamarindPatches(val_csv, augment=False)
